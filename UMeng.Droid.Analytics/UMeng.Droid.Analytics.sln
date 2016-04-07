@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMeng.Droid.Analytics", "UMeng.Droid.Analytics\UMeng.Droid.Analytics.csproj", "{E5884489-C744-437F-AD86-CE2E950CDCAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMeng.Analytics.Demo", "UMeng.Analytics.Demo\UMeng.Analytics.Demo.csproj", "{1374E36F-06CA-4F54-AE14-535F1FD6E2D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5884489-C744-437F-AD86-CE2E950CDCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5884489-C744-437F-AD86-CE2E950CDCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5884489-C744-437F-AD86-CE2E950CDCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5884489-C744-437F-AD86-CE2E950CDCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1374E36F-06CA-4F54-AE14-535F1FD6E2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1374E36F-06CA-4F54-AE14-535F1FD6E2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1374E36F-06CA-4F54-AE14-535F1FD6E2D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1374E36F-06CA-4F54-AE14-535F1FD6E2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1374E36F-06CA-4F54-AE14-535F1FD6E2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1374E36F-06CA-4F54-AE14-535F1FD6E2D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
