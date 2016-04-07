@@ -19,6 +19,7 @@ namespace UMeng.Analytics.Demo
 
 		protected override void OnCreate(Bundle bundle)
 		{
+			Action<View> t = OnButtonClick;
 			base.OnCreate(bundle);
 			SetContentView(Resource.Layout.umeng_example_analytics);
 			_context = this;
@@ -39,7 +40,7 @@ namespace UMeng.Analytics.Demo
 			MobclickAgent.OnPause(_context);
 		}
 
-		[Register("onButtonClick")]
+		[Java.Interop.Export("onButtonClick")]
 		public void OnButtonClick(View view)
 		{
 			int id = view.Id;

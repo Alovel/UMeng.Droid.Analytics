@@ -115,7 +115,7 @@ namespace UMeng.Analytics.Demo
 				FrameLayout fl = new FrameLayout(_context);
 				fl.LayoutParameters = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MatchParent,
 					FrameLayout.LayoutParams.MatchParent);
-				fl.SetBackgroundColor(Color.Black);
+				fl.SetBackgroundColor(Color.White);
 				TextView tv = new TextView(_context);
 				tv.Text = $"Fragment #{_num}";
 				tv.SetTextColor(Color.Black);
