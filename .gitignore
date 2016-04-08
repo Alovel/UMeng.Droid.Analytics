@@ -243,3 +243,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/UMeng.Droid.Analytics/UMeng.Droid.Analytics/NuGet.exe
