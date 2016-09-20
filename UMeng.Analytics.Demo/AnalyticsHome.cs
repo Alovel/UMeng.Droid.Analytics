@@ -68,24 +68,24 @@ namespace UMeng.Analytics.Demo
 						MobclickAgent.OnEventValue(this, "music", dic, 12000);
 					}
 					break;
-				case Resource.Id.umeng_example_analytics_event_begin:
-					{
-						MobclickAgent.OnEventBegin(_context, "music");
-						MobclickAgent.OnEventBegin(_context, "music", "one");
-						var dic = new Dictionary<string, string>();
-						dic.Add("type", "popular");
-						dic.Add("artist", "JJLin");
-						MobclickAgent.OnKVEventBegin(_context, "music", dic, "flag0");
-					}
-					break;
-				case Resource.Id.umeng_example_analytics_event_end:
-					{
-						MobclickAgent.OnEventEnd(_context, "music");
-						MobclickAgent.OnEventEnd(_context, "music", "one");
+				//case Resource.Id.umeng_example_analytics_event_begin:
+				//	{
+				//		MobclickAgent.OnEventBegin(_context, "music");
+				//		MobclickAgent.OnEventBegin(_context, "music", "one");
+				//		var dic = new Dictionary<string, string>();
+				//		dic.Add("type", "popular");
+				//		dic.Add("artist", "JJLin");
+				//		MobclickAgent.OnKVEventBegin(_context, "music", dic, "flag0");
+				//	}
+				//	break;
+				//case Resource.Id.umeng_example_analytics_event_end:
+				//	{
+				//		MobclickAgent.OnEventEnd(_context, "music");
+				//		MobclickAgent.OnEventEnd(_context, "music", "one");
 
-						MobclickAgent.OnKVEventEnd(_context, "music", "flag0");
-					}
-					break;
+				//		MobclickAgent.OnKVEventEnd(_context, "music", "flag0");
+				//	}
+				//	break;
 				case Resource.Id.umeng_example_analytics_make_crash:
 					{
 						"123".Substring(10);
